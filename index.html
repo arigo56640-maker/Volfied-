@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>סגירת שטחים של אריה - קלוד לא דרק</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hud">
+    <span>ניקוד: <span id="score">0</span></span>
+    <span>שלב: <span id="level">1</span></span>
+    <span>חיים: <span id="lives">&#10084; &#10084; &#10084;</span></span>
+    <span>שטח: <span id="area">0%</span></span>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="overlay">
+    <h1>סגירת שטחים של אריה<br>קלוד לא דרק</h1>
+    <img src="Aire_b.png" alt="Arie" style="display:block;margin:0 auto;max-height:200px;width:auto;">
+    <p class="subtitle">תפוס 75% מהשטח כדי לעלות לשלב הבא</p>
+    <p class="instructions">חצים לתנועה &nbsp;|&nbsp; אל תתן לאויבים לגעת ב-trail שלך</p>
+    <button id="startBtn">התחל משחק</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

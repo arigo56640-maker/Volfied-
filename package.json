@@ -1,0 +1,15 @@
+{
+  "name": "volfied",
+  "version": "1.0.0",
+  "description": "סגירת שטחים של אריה - קלוד לא דרק",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
